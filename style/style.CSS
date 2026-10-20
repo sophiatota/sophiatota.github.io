@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    /*a fonte só vai aparecer se no computador tiver instalado*/
+    font-family: Arial, Helvetica,sans-serif ;
+    font-size: 16px;
+    /*se a arial não tiver instalda a outra vai ser,*/
+    /*line-height: 1.6;*/
+    
+}
+
+h1, h2, h3 {
+    color:  #ff0000;
+}
+
+h1{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 20px;
+}
+a{
+    color: rgb(191, 255, 0);
+}
+
+.container{
+    width: 90%;
+    /*largura*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background-color: rgb(175, 48, 129);
+    color: rgb(0, 251, 255);
+    padding: 30px 0;
+    /*sequencia*/
+}
+.cabecalho h1{
+    /*seletor decendente*/
+    color: chartreuse;
+    font-weight: 1000;
+}
+
+.etiqueta{
+    margin-bottom: 5px;
+    color: rgb(184, 0, 251);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 50px;
+}
+
+.subtitulo{
+    max-width: 700px;
+    /*altera o subtituo*/
+
+}
+.menu-lista{
+    /*zera todas as margin*/
+    margin: 20px 0 0;
+    padding: 0;
+    /*espacamento inteiro*/
+    list-style: none;
+    /*muda as bolinha*/
+}
+.menu-lista li{
+    /*display: block;*/
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-link{
+    display: inline-block;
+    padding: 8px 12px;
+
+    background-color: white;
+    border: 1px solid rgb(227, 238, 5);
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+
