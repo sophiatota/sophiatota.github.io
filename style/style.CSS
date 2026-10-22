@@ -100,6 +100,11 @@ a{
 
 .secao{
     padding: 72px 0;
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    /*padding: 1px 0*/
+    /*MUDA A MARGEEEM O ESPAÇO GIGANTEEE*/
 }
 
 .titulo-secao{

@@ -1,6 +1,6 @@
 .tabela-conhecimentos{
     width: 100%;
-    border: 6px solid rgba(246, 244, 244, 0.366);
+    /*border: 6px solid rgba(223, 81, 81, 0.366);*/
     border-collapse: collapse;
     background-color: rgba(255, 255, 255, 0.418);
 
@@ -17,13 +17,22 @@
 .tabela-conhecimentos td{
     padding: 12px;
     text-align: left;
-    border: 1px solid springgreen;
+    border: 1px solid rgb(6, 123, 64);
 }
 
 .tabela-conhecimentos thead{
-    background-color: aquamarine;
+    background-color: rgb(112, 6, 6);
 }
 .tabela-conhecimentos tfoot{
-    background-color: rgba(165, 42, 42, 0.603);
+    background-color: rgb(244, 0, 0);
 }
 
+.secao{
+    margin: 25px 0;
+    padding: 72px 0;
+    background-color: #ffffff;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    /*padding: 1px 0*/
+    /*MUDA A MARGEEEM O ESPAÇO GIGANTEEE*/
+}
